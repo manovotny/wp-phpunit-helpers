@@ -1,0 +1,23 @@
+init:
+  - config
+  - shell:install
+  - update
+
+config:
+  - replace
+  - rename
+
+generate:
+  - makepot
+
+update:
+  - clean:lib
+  - shell:update
+
+lint:
+  - phplint
+
+release:
+  - lint
+  - generate
+  - replace:project_version
