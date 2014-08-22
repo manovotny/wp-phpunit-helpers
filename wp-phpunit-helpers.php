@@ -22,51 +22,6 @@
  * GitHub Plugin URI: https://github.com/manovotny/wp-phpunit-helpers
  */
 
-/* Access
----------------------------------------------------------------------------------- */
-
-if ( ! defined( 'WPINC' ) ) {
-
-    die;
-
-}
-
-/* Support
----------------------------------------------------------------------------------- */
-
-wp_enqueue_script( 'TODO' );
-
-/* Libraries
----------------------------------------------------------------------------------- */
-
-require_once __DIR__ . '/lib/';
-
-/* Classes
----------------------------------------------------------------------------------- */
-
-if ( ! class_exists( 'TODO' ) ) {
-
-    require_once __DIR__ . '/classes/';
-
-}
-
-/* Widgets
----------------------------------------------------------------------------------- */
-
-if ( ! class_exists( 'TODO' ) ) {
-
-    require_once __DIR__ . '/classes/widgets/';
-
-    add_action( 'widgets_init', create_function( '', 'register_widget("TODO");' ) );
-
-}
-
-/* Admin
----------------------------------------------------------------------------------- */
-
-require_once __DIR__ . '/admin/inc/';
-
-/* Includes
----------------------------------------------------------------------------------- */
-
-require_once __DIR__ . '/inc/';
+include_once 'inc/server.php';
+include_once 'inc/wordpress.php';
+include_once 'inc/helpers.php';
