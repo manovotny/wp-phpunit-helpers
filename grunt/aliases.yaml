@@ -19,5 +19,5 @@ lint:
 
 release:
   - lint
-  - generate
   - replace:project_version
+  - generate
