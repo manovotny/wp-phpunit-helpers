@@ -1,11 +1,11 @@
 {
-  "name": "manovotny/wp-phpunit-helpers",
-  "version": "0.1.0",
-  "description": "Simple PHPUnit helpers for testing WordPresss.",
-  "type": "library",
-  "homepage": "https://github.com/manovotny/wp-phpunit-helpers",
-  "license": "GPL-3.0+",
-  "require": {
-    "phpunit/phpunit": "4.1.*"
-  }
+    "name": "manovotny/wp-phpunit-helpers",
+    "version": "0.1.0",
+    "description": "Simple PHPUnit helpers for testing WordPresss.",
+    "type": "library",
+    "homepage": "https://github.com/manovotny/wp-phpunit-helpers",
+    "license": "GPL-3.0+",
+    "require": {
+        "phpunit/phpunit": "4.1.*"
+    }
 }
