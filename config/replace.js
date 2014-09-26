@@ -11,12 +11,12 @@ module.exports = (function () {
         },
         project: {
             composer: 'PROJECT_COMPOSER',
-            description: 'Simple PHPUnit helpers for testing WordPresss.',
+            description: 'Simple PHPUnit helpers for testing WordPress.',
             git: 'git://github.com/manovotny/wp-phpunit-helpers.git',
             name: 'WP PHPUnit Helpers',
             slug: 'wp-phpunit-helpers',
             url: 'https://github.com/manovotny/wp-phpunit-helpers',
-            version: '0.0.0'
+            version: '0.1.0'
         },
         translations: {
             domain: 'wp-phpunit-helpers',

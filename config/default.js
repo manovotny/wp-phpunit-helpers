@@ -19,7 +19,7 @@ module.exports = (function () {
         },
         project: {
             composer: 'manovotny/wp-phpunit-helpers',
-            description: 'Simple PHPUnit helpers for testing WordPresss.',
+            description: 'Simple PHPUnit helpers for testing WordPress.',
             git: 'git://github.com/manovotny/wp-phpunit-helpers.git',
             name: 'WP PHPUnit Helpers',
             slug: 'wp-phpunit-helpers',
