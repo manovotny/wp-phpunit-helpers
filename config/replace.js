@@ -16,7 +16,7 @@ module.exports = (function () {
             name: 'WP PHPUnit Helpers',
             slug: 'wp-phpunit-helpers',
             url: 'https://github.com/manovotny/wp-phpunit-helpers',
-            version: '0.1.0'
+            version: '1.0.0'
         },
         translations: {
             domain: 'wp-phpunit-helpers',
