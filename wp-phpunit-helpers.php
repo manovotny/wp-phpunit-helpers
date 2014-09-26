@@ -1,12 +1,6 @@
 <?php
 /**
- * Simple PHPUnit helpers for testing WordPresss.
- *
  * @package WP_PHPUnit_Helpers
- * @author Michael Novotny <manovotny@gmail.com>
- * @license GPL-3.0+
- * @link https://github.com/manovotny/wp-phpunit-helpers
- * @copyright 2014 Michael Novotny
  *
  * @wordpress-plugin
  * Plugin Name: WP PHPUnit Helpers
@@ -22,6 +16,25 @@
  * GitHub Plugin URI: https://github.com/manovotny/wp-phpunit-helpers
  */
 
-include_once 'inc/server.php';
-include_once 'inc/wordpress.php';
-include_once 'inc/helpers.php';
+/* Access
+---------------------------------------------------------------------------------- */
+
+if ( ! defined( 'WPINC' ) ) {
+
+    die;
+
+}
+
+/* Composer
+---------------------------------------------------------------------------------- */
+
+if ( file_exists( __DIR__ . '/vendor/autoload.php' ) ) {
+
+    require_once __DIR__ . '/vendor/autoload.php';
+
+}
+
+/* Initialization
+---------------------------------------------------------------------------------- */
+
+require_once __DIR__ . '/src/initialize.php';

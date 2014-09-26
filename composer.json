@@ -4,8 +4,36 @@
     "description": "Simple PHPUnit helpers for testing WordPresss.",
     "type": "library",
     "homepage": "https://github.com/manovotny/wp-phpunit-helpers",
+    "authors": [
+        {
+            "name": "Michael Novotny",
+            "email": "manovotny@gmail.com",
+            "homepage": "http://manovotny.com",
+            "role": "Developer"
+        }
+    ],
     "license": "GPL-3.0+",
+    "keywords": [
+        "phpunit",
+        "test",
+        "tests",
+        "wordpress"
+    ],
     "require": {
+
+    },
+    "require-dev": {
         "phpunit/phpunit": "4.1.*"
+    },
+    "autoload-dev": {
+        "classmap": [
+            "src",
+            "vendor/phpunit",
+            "vendor/sebastian",
+            "vendor/symfony"
+        ],
+        "files": [
+            "wp-phpunit-helpers.php"
+        ]
     }
 }

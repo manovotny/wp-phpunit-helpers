@@ -7,6 +7,9 @@
         "url": "git://github.com/manovotny/wp-phpunit-helpers.git"
     },
     "keywords": [
+        "phpunit",
+        "test",
+        "tests",
         "wordpress"
     ],
     "authors": [
