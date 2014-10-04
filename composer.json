@@ -31,9 +31,6 @@
             "vendor/phpunit",
             "vendor/sebastian",
             "vendor/symfony"
-        ],
-        "files": [
-            "wp-phpunit-helpers.php"
         ]
     }
 }
