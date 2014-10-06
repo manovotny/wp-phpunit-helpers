@@ -5,11 +5,10 @@ module.exports = function (grunt) {
     grunt.config('phpunit', {
         options: {
             bin: 'vendor/bin/phpunit',
-            bootstrap: 'wp-phpunit-helpers.php',
-            colors: true
+            colors: true,
+            coverage: true
         },
         tests: {
-            coverage: true,
             dir: 'tests'
         }
     });
