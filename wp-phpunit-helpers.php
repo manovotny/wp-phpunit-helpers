@@ -6,7 +6,7 @@
  * Plugin Name: WP PHPUnit Helpers
  * Plugin URI: https://github.com/manovotny/wp-phpunit-helpers
  * Description: Simple PHPUnit helpers for testing WordPress.
- * Version: 1.3.1
+ * Version: 1.4.0
  * Author: Michael Novotny
  * Author URI: http://manovotny.com
  * License: GPL-3.0+
