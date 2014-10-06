@@ -4,6 +4,10 @@ function add_action( $tag, $function ) {
 
 }
 
+function add_filter( $tag, $function ) {
+
+}
+
 function content_url() {
 
     return site_url() . '/wp-content';
