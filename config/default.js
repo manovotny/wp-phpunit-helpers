@@ -25,7 +25,7 @@ module.exports = (function () {
             slug: 'wp-phpunit-helpers',
             type: 'plugin', // Should be `plugin` or `theme`.
             url: 'https://github.com/manovotny/wp-phpunit-helpers',
-            version: '1.1.0'
+            version: '1.2.0'
         }
     };
 
