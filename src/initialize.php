@@ -1,6 +1,6 @@
 <?php
 
-require 'inc/constants.php';
 require 'inc/server.php';
-require 'inc/wordpress.php';
+require 'inc/constants.php';
+require 'inc/functions.php';
 require 'inc/helpers.php';

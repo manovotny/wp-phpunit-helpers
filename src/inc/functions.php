@@ -1,16 +1,5 @@
 <?php
 
-/* Constants
----------------------------------------------------------------------------------- */
-
-define( 'WP_CONTENT_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content' );
-define( 'WP_CONTENT_URL', 'http://example.com' . '/wp-content' );
-define( 'WP_PLUGIN_DIR', $_SERVER['DOCUMENT_ROOT'] . '/wp-content/plugins' );
-define( 'WP_PLUGIN_URL', 'http://example.com' . '/wp-content/plugins' );
-
-/* Methods
----------------------------------------------------------------------------------- */
-
 function content_url() {
 
     return site_url() . '/wp-content';
@@ -26,6 +15,20 @@ function plugins_url() {
 function site_url() {
 
     return 'http://example.com';
+
+}
+
+function trailingslashit( $value ) {
+
+    $last_character = substr( $value, -1 );
+
+    if ( '/' === $last_character) {
+
+        return $value;
+
+    }
+
+    return $value . '/';
 
 }
 
