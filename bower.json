@@ -1,6 +1,6 @@
 {
     "name": "wp-phpunit-helpers",
-    "version": "1.4.0",
+    "version": "1.4.1",
     "description": "Simple PHPUnit helpers for testing WordPress.",
     "repository": {
         "type": "git",
