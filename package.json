@@ -1,6 +1,6 @@
 {
     "name": "wp-phpunit-helpers",
-    "version": "1.4.1",
+    "version": "1.4.2",
     "description": "Simple PHPUnit helpers for testing WordPress.",
     "author": "Michael Novotny <http://manovotny.com>",
     "repository": {
